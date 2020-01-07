@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="4a650e4d-f68a-4da4-a997-6d5278178bb4" dbName="master" connectionInfo="77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxEZXZFeHByZXNzWHBvR2VuZXJhdG9yU2V0dGluZ3MgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSIgcHJvdmlkZXJLZXk9Ik1TU3FsU2VydmVyIj4NCiAgPHBhcmFtZXRlcj4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0ic2VydmVyIiB2YWx1ZT0iKGxvY2FsZGIpXE1TU1FMTG9jYWxEQiIgLz4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0iZGF0YWJhc2UiIHZhbHVlPSJtYXN0ZXIiIC8+DQogICAgPENvbm5lY3Rpb25QYWdlU2V0dGluZ3NJdGVtIG5hbWU9InVzZUludGVncmF0ZWRTZWN1cml0eSIgdmFsdWU9IlRydWUiIC8+DQogICAgPENvbm5lY3Rpb25QYWdlU2V0dGluZ3NJdGVtIG5hbWU9InVzZXJpZCIgdmFsdWU9IiIgLz4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0icGFzc3dvcmQiIHZhbHVlPSIiIC8+DQogICAgPENvbm5lY3Rpb25QYWdlU2V0dGluZ3NJdGVtIG5hbWU9InJlYWQgb25seSIgdmFsdWU9IjEiIC8+DQogICAgPENvbm5lY3Rpb25QYWdlU2V0dGluZ3NJdGVtIG5hbWU9ImdlbmVyYXRlQ29ubmVjdGlvbkhlbHBlciIgdmFsdWU9InRydWUiIC8+DQogIDwvcGFyYW1ldGVyPg0KPC9EZXZFeHByZXNzWHBvR2VuZXJhdG9yU2V0dGluZ3M+" namespace="XpoTools.master" connectionString="XpoProvider=MSSqlServer;data source=(localdb)\MSSQLLocalDB;integrated security=SSPI;initial catalog=master" dataBaseShemaInfo="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" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <comments>
+    <dataBaseObjectModelHasComments Id="f8cb41e4-2b6e-4bba-8812-5b1e62599d01">
+      <comment Id="5c687478-74a3-4a9b-9811-dd81907ae6ac" text="The 'PK__IPLI_EXM__E7B8F933D199D9B6' index is ignored, because 'CASE_SEQ_NO' is a key" name="IPLI_EXM_ATT_FILEComment">
+        <subjects>
+          <commentReferencesSubjects Id="14453683-ee3f-42c5-9394-d15bb010a4a2">
+            <xpObjectMoniker Id="5b7a00ed-708e-40ad-a218-390ac97211e3" />
+          </commentReferencesSubjects>
+        </subjects>
+      </comment>
+    </dataBaseObjectModelHasComments>
+    <dataBaseObjectModelHasComments Id="bd1569ef-72f8-44aa-8c99-672a2923c114">
+      <comment Id="9aee7f8f-2cb0-4e27-b866-9aeb961c7737" text="The 'PK__IPLI_PDF__8E3D07A122EA7383' index is ignored, because 'OBJID' is a key" name="IPLI_PDF_MERGEComment">
+        <subjects>
+          <commentReferencesSubjects Id="3dd50e24-c262-4033-9bbe-e706da99149d">
+            <xpObjectMoniker Id="63d344ea-d511-4e8b-9f4a-d30b127e2a77" />
+          </commentReferencesSubjects>
+        </subjects>
+      </comment>
+    </dataBaseObjectModelHasComments>
+    <dataBaseObjectModelHasComments Id="18892d09-c6b4-4f39-b636-9a821618b7c5">
+      <comment Id="35e1b310-6ac3-4fdf-ba2e-89afa46545a7" text="The 'PK__PXXT_COD__4F0B14A9C1CA8C6B' index is ignored, because 'SUB_SYS' is a key" name="PXXT_CODEComment">
+        <subjects>
+          <commentReferencesSubjects Id="359e2a47-7bf0-434a-acb0-f1c40be74342">
+            <xpObjectMoniker Id="59e13c77-edaa-4829-929e-4297eef04328" />
+          </commentReferencesSubjects>
+        </subjects>
+      </comment>
+    </dataBaseObjectModelHasComments>
+  </comments>
+  <classes>
+    <dataBaseObjectModelHasClasses Id="415709f1-e86d-4f78-b905-bb3b1af273d7">
+      <xpObject Id="5b7a00ed-708e-40ad-a218-390ac97211e3" name="IPLI_EXM_ATT_FILE" baseClass="XPBaseObject" userFileName="IPLI_EXM_ATT_FILE" designerFileName="IPLI_EXM_ATT_FILE.Designer" className="IPLI_EXM_ATT_FILE" virtualBaseClass="XPBaseObject" persistent="IPLI_EXM_ATT_FILE" virtualName="IPLI_EXM_ATT_FILE">
+        <fields>
+          <generalXpObjectHasFields Id="bc78c267-2dc3-4d67-8374-f6b5687da103">
+            <field Id="6964b6f1-eed2-42c0-9578-978e4cfe0dbd" name="CASE_SEQ_NO" key="true" persistent="CASE_SEQ_NO" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d83bef0e-d7f8-47c0-81b5-5555700b7933">
+            <field Id="d1fb890b-968f-49aa-8aad-44cc7aaee15a" name="ITEM_NO" columnType="Int32" persistent="ITEM_NO" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d3eea1f9-e430-4d37-a19f-81fa048e478d">
+            <field Id="42144e7e-a5de-4dcf-b620-93a8f90da4d6" name="FILE_NAME" persistent="FILE_NAME" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="83c68345-f6a4-41a9-b809-93216c0c5e1f">
+            <field Id="bb07bef7-f590-4f79-aa7e-842461051913" name="FILE_TYPE" persistent="FILE_TYPE" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="15efc46d-a0f2-4467-8379-c3b19ed1b9c7">
+            <field Id="36b09363-22a6-409c-8cec-c8a95031d5a6" name="FILE_PATH" persistent="FILE_PATH" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="e8fc35f5-9da2-4ba6-af58-fb7f4f1de581">
+            <field Id="66f9c1d2-442c-4ed8-b3bf-dcd259927a05" name="FILE_MEMO" persistent="FILE_MEMO" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b274db2d-a222-4120-ac1b-18b63d4f6d72">
+            <field Id="03278c3b-2368-419e-8bec-bc5a3d0775c1" name="HL7" persistent="HL7" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="570f6b1e-1ac5-4d4c-bf72-9527bbd14976">
+            <field Id="686a7b74-5e88-4f45-9525-0227ea4750cc" name="SHORT_CUT_STATUS" persistent="SHORT_CUT_STATUS" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="bc5c56a2-f024-4179-94b8-5d6db15e6630">
+            <field Id="d32a0795-1db8-4964-8597-26c16268126d" name="FILE_PATH_REF" persistent="FILE_PATH_REF" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="41bcc3ce-2307-4e16-b8a9-36d3cf4a6eee">
+            <field Id="3ee8dc2d-7f50-4e78-8a4c-7f1ef360f78f" name="FILE_OPEN_APP" columnType="Int32" persistent="FILE_OPEN_APP" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="865876e5-48a6-44fb-87dd-2a6604fd31b9">
+            <field Id="af97a46f-2cc2-4e58-8241-80e9376f50a8" name="ORIG_FILE_NAME" persistent="ORIG_FILE_NAME" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="c33f75ad-d752-4699-9cfc-b9fc82f6935c">
+            <field Id="3edb8a36-bdfd-4e64-8cc6-7e4fe0e5d736" name="FILE_ATTACH" persistent="FILE_ATTACH" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="e801a2d4-dce0-476d-af62-d24412e766de">
+            <field Id="88a0bf53-7834-43e8-b035-675dc7ff6d84" name="DOCUMENT_TYPE" persistent="DOCUMENT_TYPE" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b7147d60-5c80-4b2d-9786-f7989b0f2fd9">
+            <field Id="a310f719-f249-40f3-a83f-1e4d59b851ac" name="ERR_CODE" persistent="ERR_CODE" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d9456be7-9e3b-40d1-9e8f-6f6ab830d24d">
+            <field Id="e1ef211b-a3b7-40ff-9fb0-620b04090d1b" name="FILE_PATH_TC" persistent="FILE_PATH_TC" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="79b9b417-2d1a-46e7-b54d-65783cc73db0">
+            <field Id="89f3f2df-07f6-46f4-a953-277f0b1afb18" name="FILE_PATH_REF_TC" persistent="FILE_PATH_REF_TC" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="96c7a759-f1bb-45f4-a10e-51745c3fb997">
+            <field Id="e2cd96d3-c950-45a9-9111-0e86f2265c9e" name="ORIG_FILE_MD5" persistent="ORIG_FILE_MD5" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="cc9d3892-fa03-4732-ab0b-42e254edb93f">
+            <field Id="70ae6a10-16fb-414c-9df8-f8f953dc0628" name="ORIG_FILE_MD5_CHECK_FLAG" persistent="ORIG_FILE_MD5_CHECK_FLAG" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="382e19cc-2c4e-410d-8358-49a38a5685b4">
+            <field Id="36773514-bca0-4ea2-87aa-b78bea71da11" name="ORIG_FILE_MD5_CHECK_TIME" columnType="DateTime" persistent="ORIG_FILE_MD5_CHECK_TIME" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="abd8d1fb-1ec1-42e6-9d20-aa09c269d217">
+            <field Id="61f961fb-b505-45a4-bfcb-4b6847f8ea6a" name="CONVERT_FILE_MD5" persistent="CONVERT_FILE_MD5" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="6728b568-1192-4bfe-ac4f-5e176c65b8cb">
+            <field Id="b0d19b56-3bc0-4113-8b0c-b899db4135bf" name="CONVERT_FILE_TP_STATUS" persistent="CONVERT_FILE_TP_STATUS" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4dbc85f1-c570-4813-b89d-3d56f32e3a4a">
+            <field Id="97e54c99-4c1b-438f-b5dd-caf061a41b77" name="CONVERT_FILE_TP_PATH" persistent="CONVERT_FILE_TP_PATH" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a48b6ea6-6665-4b76-976c-4496eaa8473a">
+            <field Id="3ff3d8c8-fbd9-4bdf-908f-405e2d204e3d" name="CONVERT_FILE_MD5_TP_CHECK_FLAG" persistent="CONVERT_FILE_MD5_TP_CHECK_FLAG" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="8d7ffec2-d63f-407e-b70b-40e1f4266813">
+            <field Id="51418223-fc12-48d4-aba4-5da8481c5d81" name="CONVERT_FILE_MD5_TP_CHECK_TIME" columnType="DateTime" persistent="CONVERT_FILE_MD5_TP_CHECK_TIME" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="536f87d4-3270-41c5-970f-523f1fd76830">
+            <field Id="7fe30a26-d733-4032-839c-a279b93badad" name="CONVERT_FILE_TC_STATUS" persistent="CONVERT_FILE_TC_STATUS" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4a51673f-798e-4437-8647-bbb7cac1fad2">
+            <field Id="8d4043ee-222f-4465-bf92-510cbb9a0e99" name="CONVERT_FILE_TC_PATH" persistent="CONVERT_FILE_TC_PATH" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="29818da6-f421-43eb-b1a9-6be419efa701">
+            <field Id="e93acf33-b901-4cfe-be53-64039d3209ff" name="CONVERT_FILE_MD5_TC_CHECK_FLAG" persistent="CONVERT_FILE_MD5_TC_CHECK_FLAG" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="7410e13b-f6f7-4f74-b44c-37d6347f0d11">
+            <field Id="e424d357-9c84-4e76-b11e-eb5a9d052c36" name="CONVERT_FILE_MD5_TC_CHECK_TIME" columnType="DateTime" persistent="CONVERT_FILE_MD5_TC_CHECK_TIME" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="4f97a35b-a371-45ff-9f08-369e13b6e2db">
+      <xpObject Id="63d344ea-d511-4e8b-9f4a-d30b127e2a77" name="IPLI_PDF_MERGE" baseClass="XPBaseObject" userFileName="IPLI_PDF_MERGE" designerFileName="IPLI_PDF_MERGE.Designer" className="IPLI_PDF_MERGE" virtualBaseClass="XPBaseObject" persistent="IPLI_PDF_MERGE" virtualName="IPLI_PDF_MERGE">
+        <fields>
+          <generalXpObjectHasFields Id="781b6d86-565f-44bc-b3a0-21d26a506d92">
+            <field Id="d6f597e5-2433-495c-a260-795c543b0f0d" name="OBJID" key="true" persistent="OBJID" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4034482c-4732-42dd-a79f-6c867fdbf615">
+            <field Id="dbbb7c4d-9d9c-4d95-a09b-c431fab5deaa" name="BUS_CODE" persistent="BUS_CODE" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="e3dea326-f894-4d34-839d-b462ad3089fe">
+            <field Id="4780998a-553a-405e-b65f-b033b07b0354" name="PROC_POS" persistent="PROC_POS" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="53c3aef7-1655-4b80-bb0e-adb398960d29">
+            <field Id="4699a6bb-99c1-460f-9560-fe1f5e334682" name="PROC_STATUS" columnType="Int32" persistent="PROC_STATUS" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="c6c0b85f-a72c-4b08-8679-e9d0a9ea7c64">
+            <field Id="f33c3e14-9a3c-4fef-9c8f-8edf3ede950e" name="EXE_PRIORITY" columnType="Int32" persistent="EXE_PRIORITY" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="0a415779-bcf2-44a4-8ed1-f6fd57085d71">
+            <field Id="902bba16-6e7a-42e1-b707-e0d5d3452d0d" name="PROC_ERR_MSG" persistent="PROC_ERR_MSG" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="7af941e8-64c1-493f-a11c-9edc0d100d44">
+            <field Id="4d343c9f-b05a-476d-9c2e-836ed31c9582" name="ADD_TIME" columnType="DateTime" persistent="ADD_TIME" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="9f0bdd9d-a07e-4a52-b5ad-b6a958e3fdea">
+            <field Id="9a044163-3d8d-48db-aafe-f485a0642081" name="MODIFY_TIME" columnType="DateTime" persistent="MODIFY_TIME" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b177aa97-d6c6-436d-be46-d90bc272fe7b">
+            <field Id="6cf9d24f-ec3c-4887-a5c2-60c5ea5f0d13" name="rowid" persistent="rowid" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="02d2df46-0fe7-4b36-8874-09c3b925585e">
+      <xpObject Id="59e13c77-edaa-4829-929e-4297eef04328" name="PXXT_CODE" baseClass="XPBaseObject" userFileName="PXXT_CODE" designerFileName="PXXT_CODE.Designer" className="PXXT_CODE" virtualBaseClass="XPBaseObject" persistent="PXXT_CODE" virtualName="PXXT_CODE">
+        <fields>
+          <generalXpObjectHasFields Id="c48a669e-02a3-4a5c-9732-f464618a5305">
+            <field Id="bbdafe4c-6301-4c7f-8546-9f3cf64e4d25" name="SUB_SYS" key="true" persistent="SUB_SYS" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="40415d4c-7a05-4120-b647-6aa0d2f0a852">
+            <field Id="8a6e8422-aa9f-412f-8e54-b12292244ec4" name="DATA_TYPE" persistent="DATA_TYPE" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="0975d727-5402-4aea-9876-94c2effbe37b">
+            <field Id="69e6cdbb-f6a0-4f06-8755-e0d31f8af626" name="CODE" persistent="CODE" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="200f2135-ac30-434c-88f1-8b9f4486cd9c">
+            <field Id="47deaa69-52c3-4e89-9c18-6b0147540f5a" name="CODE_CNAME" persistent="CODE_CNAME" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="c44afd4c-0926-4ea8-9009-f6975f2ebdc3">
+            <field Id="1487c314-a762-4736-9e54-4a9ae2a6b4e9" name="CODE_ENAME" persistent="CODE_ENAME" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="36371b20-05e1-438d-94fe-5d2be1958391">
+            <field Id="3d0cfec4-cd43-4d16-bc52-caa210e0c415" name="VALID_S_DATE" columnType="DateTime" persistent="VALID_S_DATE" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="0d239171-53e4-44e1-93d0-636cb7e41c00">
+            <field Id="4df0d61f-f6b5-4077-8653-1a7053c7b3bb" name="VALID_E_DATE" columnType="DateTime" persistent="VALID_E_DATE" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="59326cc8-11b6-44c1-a300-39f207190913">
+            <field Id="3c41b932-7772-4ab0-8810-7094a113e9c5" name="TXT_STATUS" persistent="TXT_STATUS" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="1cdc6a26-bee1-4504-934f-e4c5fcc734a4">
+            <field Id="08726a86-65a5-41d2-898a-ec2b5c6d23c1" name="EXE_TIME" persistent="EXE_TIME" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="1cc6c982-4976-4378-b64f-c7cc483612bc">
+            <field Id="a9bf6a2d-4e95-4155-a390-300060133899" name="TXT_USR_ID" persistent="TXT_USR_ID" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="0c986708-dace-476b-986d-a40b76ad3a70">
+            <field Id="dd168fe7-e2e3-477c-b8ed-91a42e95180a" name="BRANCH_CODE" persistent="BRANCH_CODE" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="f668d5e1-7a8c-49b1-9b6a-80f914aa2491">
+            <field Id="ed7808a2-4622-45ff-85bb-c959a70500b6" name="rowid" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>
